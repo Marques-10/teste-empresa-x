@@ -1,0 +1,362 @@
+header {
+    box-sizing: content-box;
+    background-color: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-header {
+    margin: auto;
+    padding-top: 15px;
+    min-height: 140px;
+    max-width: 890px;
+    font-size: 15px;
+}
+
+.div-header a {
+    color: #848484;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.div-header button {
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    background-color: #f86a42;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+/* #indicadores-carousel img {
+    height: 562px !important;
+} */
+
+.items-indicators {
+    text-align: center;
+}
+
+.indicators .item {
+    margin-top: 15px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+
+.empresa-title, .info-empresa, .info-equipe, .footer {
+    margin: auto;
+    width: 890px;
+}
+
+.equipe {
+    margin: auto;
+    width: 910px;
+}
+
+.empresa-title p {
+    font-family: Arial;
+    border: bold;
+    font-size: 26px;
+    font-weight: bold;
+    color: #f86a42;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info-empresa {
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.colun-1 img {
+    margin-left: -15px;
+}
+
+.colun-1, .colun-2 {
+    display: inline-block;
+}
+
+.colun-2 p {
+    font-size: 14px;
+}
+
+.colun-2 button, .btn-veja {
+    margin: auto;
+    height: 40px;
+    background-color: #faae00;
+    border: none;
+    font-weight: bold;
+    color: #FFF;
+} 
+
+.colun-2 button {
+    width: 186px;
+    margin-left: 25%;
+}
+
+.btn-veja {
+    width: 242px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.info-equipe p {
+    font-size: 14px;
+    padding: 15px;
+}
+
+.member {
+    display: inline-block;
+}
+
+.itens-menu > div {
+    display: inline-block;
+    padding: 5px;
+    max-width: 160px;
+}
+
+.membros img {
+    width: 276px;
+    height: 208px;
+    margin: 6px;
+}
+
+.active {
+    background-color: #000;
+}
+
+.div-header a {
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: orangered;
+    transition-duration: 1s;
+}
+
+.member {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.selected {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.div-header a:hover {
+    color: #525252;
+    font-weight: bold;
+}
+
+.colun-2 button, .btn-veja, .div-header button {
+    border-radius: 0px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+footer {
+    width: 100%;
+    background-color: #ececec;
+    box-sizing: content-box;
+    min-height: 106px;
+    color: #6c6c6c;
+}
+
+.footer div {
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+
+.email {
+    font-weight: bold;
+}
+
+.cel {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .itens-menu > div {
+        display: block;
+        margin: 10px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo img {
+        margin-left: -15%;
+    }
+    
+    .itens-menu button {
+        margin: 10px;
+    }
+
+    .itens-menu {
+        margin-bottom: 10px;
+    }
+    section {
+        margin-top: -16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .colun-1 img {
+        margin-left: 25% !important;
+    }
+    .colun-2 {
+        margin-top: 10px;
+    }
+    .colun-2 button {
+        margin-left: 35%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .colun-1 img {
+        margin-left: 15% !important;
+    }
+    
+    .colun-2 button {
+        margin-left: 30%;
+    }
+
+    .footer div {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .colun-1 img {
+        margin-left: 10% !important;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 530px;
+    }
+}
+
+@media (max-width: 550px) {
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 500px;
+    }
+    .colun-2 button {
+        margin-left: 27%;
+    }
+}
+
+@media (max-width: 515px){
+    .colun-1 img {
+        margin-left: 5% !important;
+    }
+
+    .colun-2 button {
+        margin-left: 25%;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 450px;
+    }
+    
+    .logo img {
+        margin-left: -18%;
+    }
+}
+
+@media (max-width: 460px){
+    .colun-1 img {
+        margin-left: 0% !important;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 390px;
+    }
+}
+
+@media (max-width: 418px) {
+    .colun-1 img {
+        width: 340px;
+    }
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 388px;
+    }
+}
+
+@media (max-width: 406px) {
+    .colun-1 img {
+        width: 320px;
+    }
+
+    .colun-2 button {
+        margin-left: 15%;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 397px) {
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 365px;
+    }
+}
+
+@media (max-width: 387px) {
+    .colun-1 img {
+        width: 310px;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 377px) {
+    .colun-1 img {
+        width: 290px;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 345px;
+    }
+}
+
+@media (max-width: 362px) {
+    .colun-1 img {
+        width: 275px;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 347px) {
+    .colun-1 img {
+        width: 255px;
+    }
+
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 315px;
+    }
+}
+
+@media (max-width: 332px) {
+    .info-empresa, .empresa-title, .colun-1, .colun-2, .info-equipe, .equipe, .footer {
+        max-width: 300px;
+    }
+    .colun-2 button {
+        margin-left: 10%;
+    }
+}
