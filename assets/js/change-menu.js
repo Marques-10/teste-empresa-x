@@ -11,19 +11,19 @@ window.onhashchange = function (e) {
 
 function changeImg() {
     var open = document.querySelector(".open");
-    if (open.src == "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/direito.png") {
-        open.src = "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/seta-para-baixo.png";
+    if (open.src == "./assets/images/direito.png") {
+        open.src = "./images/seta-para-baixo.png";
     } else {
-        open.src = "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/direito.png";
+        open.src = "./images/direito.png";
     }
 }
         
 function openEquipe() {
     var openEquipe = document.querySelector(".open-equipe");
-    if (openEquipe.src == "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/direito.png") {
-        openEquipe.src = "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/seta-para-baixo.png";
+    if (openEquipe.src == "./assets/images/direito.png") {
+        openEquipe.src = "./images/seta-para-baixo.png";
     } else {
-        openEquipe.src = "file:///C:/Users/xjmar/Desktop/teste-empresa-x/assets/images/direito.png";
+        openEquipe.src = "./images/direito.png";
     }
 
 }
