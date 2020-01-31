@@ -12,18 +12,18 @@ window.onhashchange = function (e) {
 function changeImg() {
     var open = document.querySelector(".open");
     if (open.src == "./assets/images/direito.png") {
-        open.src = "./images/seta-para-baixo.png";
+        open.src = "./assets/images/seta-para-baixo.png";
     } else {
-        open.src = "./images/direito.png";
+        open.src = "./assets/images/direito.png";
     }
 }
         
 function openEquipe() {
     var openEquipe = document.querySelector(".open-equipe");
     if (openEquipe.src == "./assets/images/direito.png") {
-        openEquipe.src = "./images/seta-para-baixo.png";
+        openEquipe.src = "./assets/images/seta-para-baixo.png";
     } else {
-        openEquipe.src = "./images/direito.png";
+        openEquipe.src = "./assets/images/direito.png";
     }
 
 }
